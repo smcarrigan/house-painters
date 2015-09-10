@@ -11,12 +11,3 @@ class Painter(object):
                      'sprayer' : 0,
                      'ladder' : 0,
                      'scaffolding' : 0 }
-
-
-if __name__ == '__main__':
-    painter1 = Painter()
-    painter2 = Painter()
-    painter1.working_job = True
-    painter2.equipment['roller'] = 5
-    print(painter1.equipment)
-    print(painter2.equipment)
